@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/robopals/static/js/runtime~main.1d0bf8ea.js"
   },
   {
-    "revision": "a59eade61cd2a4a8dca9",
-    "url": "/robopals/static/js/main.fb18d471.chunk.js"
+    "revision": "0dd64a6cdc5c17cc8619",
+    "url": "/robopals/static/js/main.11333170.chunk.js"
   },
   {
     "revision": "7df182c2ab0e923feb20",
     "url": "/robopals/static/js/2.85996f6a.chunk.js"
   },
   {
-    "revision": "a59eade61cd2a4a8dca9",
+    "revision": "0dd64a6cdc5c17cc8619",
     "url": "/robopals/static/css/main.50ed1d70.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/robopals/static/css/2.0fbe2c6f.chunk.css"
   },
   {
-    "revision": "1464f50579beac65acedf58e5f91ea88",
+    "revision": "5afd35ab483e75aff7be60aa6995cf36",
     "url": "/robopals/index.html"
   }
 ];
