@@ -2,23 +2,25 @@ import React, {Component} from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll'
+import robots from '../robots';
 
 class App extends Component {
   constructor(){
     super();
     this.state = {
-      robots: [],
+      // robots: [],
       serachfield: ""
     }
   }
 
-  componentDidMount(){
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response => response.json())
-      .then(users => {this.setState({robots : users})})
-      //this makes the page with 0 robot to show
-      // .then(users => {});
-  }
+  // get users name and email form jsonplaceholder api (only 10 users)
+  // componentDidMount(){
+  //   fetch('https://jsonplaceholder.typicode.com/users')
+  //     .then(response => response.json())
+  //     .then(users => {this.setState({robots : users})})
+  //     //this makes the page with 0 robot to show
+  //     // .then(users => {});
+  // }
 
   // componentWillMount(){
   //   console.log("componentWillMount");
@@ -29,7 +31,8 @@ class App extends Component {
   }
 
   render(){
-    const {robots, serachfield} = this.state; // destructuring 
+    // const {robots, serachfield} = this.state; // destructuring 
+    const {serachfield} = this.state; // destructuring 
     const filteredRobots = robots.filter(robot => {
       return robot.name.toLowerCase().includes(serachfield.toLowerCase());
     })

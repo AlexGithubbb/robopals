@@ -19,3 +19,14 @@ const Card = ({ name, id, email } ) => {
 }
 
 export default Card;
+
+// Matt Bowler
+// Katelyn Vo
+// Eduard Dean
+// Aniqa Nichols
+// Poppie French
+// Leah Battle
+// Aliya Bond
+// Jess Barker
+// Shanna Li
+// Waseem Gonzale
